@@ -26,7 +26,7 @@ function budgetCalculator(watch, phone, laptop) {
     const watchCost = watch * 50;
     const phoneCost = phone * 100;
     const laptopCost = laptop * 500;
-    const result = watchCost + phoneCost + laptopCost;
+    const totalCost = watchCost + phoneCost + laptopCost;
 
     if (watch < 0 || phone < 0 || laptop < 0) {
         return 'Input must be 1 or above'
@@ -34,7 +34,7 @@ function budgetCalculator(watch, phone, laptop) {
     if (typeof watch == "string" || typeof phone == "string" || typeof laptop == "string") {
         return 'Input must be in number'
     }
-    return result;
+    return totalCost;
 }
 
 
