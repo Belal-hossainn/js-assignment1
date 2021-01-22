@@ -1,3 +1,4 @@
+// https://github.com/Belal-hossainn/js-assignment1
 
 //No.1: convert kilometer to meter via JS function.
 
@@ -20,7 +21,7 @@ function kilometerToMeter(kilometer) {
 
 //No.2: calculate total budget for buying watch, phone & laptop.
 
-function budget(watch, phone, laptop) {
+function budgetCalculator(watch, phone, laptop) {
 
     const watchCost = watch * 50;
     const phoneCost = phone * 100;
